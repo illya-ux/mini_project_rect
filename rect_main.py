@@ -8,6 +8,14 @@ pygame.init()
 
 hero = Rectengle()
 
+npc = Rectengle(3, 500, 600, (0, 0, 255), 90, 90)
+
+enemes = []
+
+for i in range(2):
+    enemy = Rectengle(3, i * 100 + 600, i * 100 + 200, (255, 0, 0), 100, 100)
+    enemes.append(enemy)
+
 try:
     hero.load_pos(PATH + "save.txt")
 except:
@@ -34,6 +42,11 @@ while game:
     screen.fill(SCREEN_COLOR)
 
     hero.draw()
+
+    npc.draw()
+
+    for enemy in enemes:
+        enemy.draw()
 
     pygame.display.update()
     clock.tick(FPS)
