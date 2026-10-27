@@ -1,1 +1,5 @@
 2026-10-13 18:14:17.292702ошибка работы с файлами2026-10-13 18:19:34.018817 d:/py_projects/.vscode/teach_git/mini_project_rect/rect_main.py ошибка работы с файлами2026-10-19 21:37:49.534453 d:/py_projects/.vscode/teach_git/mini_project_rect/rect_main.py ошибка работы с файлами
+2026-10-26 21:29:33.641797 d:/py_projects/.vscode/teach_git/mini_project_rect/rect_main.py ошибка работы с файлами
+2026-10-26 22:30:26.739026 d:/py_projects/.vscode/teach_git/mini_project_rect/rect_main.py ошибка работы с файлами save_npc.txt
+2026-10-26 22:30:26.741026 d:/py_projects/.vscode/teach_git/mini_project_rect/rect_main.py ошибка работы с файлами save_enemy_0.txt
+2026-10-26 22:30:26.742026 d:/py_projects/.vscode/teach_git/mini_project_rect/rect_main.py ошибка работы с файлами save_enemy_1.txt

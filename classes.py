@@ -54,3 +54,23 @@ class Rectengle:
 
     def draw(self):
         pygame.draw.rect(screen, self.color, self._rect)
+
+
+class NPC(Rectengle):
+    def __init__(
+        self, speed_rect=3, x=500, y=600, color=(0, 0, 255), width=90, heigh=90
+    ):
+        super().__init__(speed_rect, x, y, color, width, heigh)
+        self.direction = DIR_RIGHT
+
+    def update(self):
+        old_pos = self._rect.copy()
+
+        if self.direction == DIR_RIGHT:
+            self.go_right()
+        else:
+            self.go_left()
+
+        if self._rect.x <= 0 or self._rect.right >= SCREEN_WIDHT:
+            self._rect = old_pos
+            self.direction *= DIR_LEFT
